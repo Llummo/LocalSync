@@ -47,7 +47,7 @@
 <div style="page-break-after: always;"></div>
 # Tabla de contenidos
 
-## [Capítulo I: Introducción](#cap-1)
+## Capítulo I: Introducción(#cap-1)
 - [1.1. Startup Profile](#11-startup)
   - [1.1.1. Descripción de la Startup](#111-desc)
   - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles)
