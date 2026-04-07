@@ -425,7 +425,15 @@ Ruta de descarga: https://spring.io/projects/spring-boot
 
 #### 5.1.2. Source Code Management
 
-[Estrategia de gestión del código fuente: repositorio, ramas (branching strategy) y convenciones de commits.]
+El proyecto utiliza GitHub como sistema de control de versiones mediante un repositorio público en una cuenta personal. Este repositorio registra los cambios y permite el seguimiento del desarrollo del backend.
+
+Se adoptó una estrategia basada en GitFlow. La rama main contiene versiones estables del sistema. La rama develop funciona como entorno de integración. Las nuevas funcionalidades se desarrollan en ramas feature/*, como feature/setup-inicial.
+
+La integración de cambios se realiza mediante Pull Requests hacia la rama develop. Este proceso asegura un control previo antes de incorporar modificaciones al código principal.
+
+Se emplea una convención de commits con prefijos semánticos como feat y fix. Esta práctica facilita la lectura del historial de cambios y mejora la organización del proyecto.
+
+Se considera la protección de la rama main como medida para restringir modificaciones directas y mantener la estabilidad del sistema.
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
